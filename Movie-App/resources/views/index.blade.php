@@ -1,9 +1,9 @@
 @extends('layouts.main')
 
 @section('content')
-    <!-- <div class="pt-100 w-screen mx-auto">
+    <div class="pt-100 w-screen mx-auto">
       <div class="bg-nav pt-100">
-        <div class="grid grid-cols-3 gap-4">
+        <div class="grid grid-cols-3 gap-4 mt-[200px]">
         <div class="ml-8 mb-4 w-1/3">
             <a href="#">
               <img src="{{ Vite::asset('resources/images/deadpool.jpg') }}" alt="Deadpool">
@@ -17,7 +17,7 @@
         </div>
       </div>
 
-    </div> -->
+    </div>
 
     <div class="container mx-auto px-4 pt-400">
       <div class="popular-movies bg-nav border-lg">
