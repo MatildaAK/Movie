@@ -24,7 +24,7 @@
                 <!-- Navigation Links -->
 
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
-                       <ul class="hidden sm:-my-px sm:ms-10 sm:flex items-center mx-auto list-none">
+                       <ul class="hidden sm:-my-px sm:flex items-center mx-auto list-none">
                        <li class="ml-10">
                             <a href="#" class="hover:text-gray-300">Home</a> <!-- Movies -->
                         </li>
