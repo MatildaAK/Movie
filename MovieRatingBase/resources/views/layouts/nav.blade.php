@@ -1,7 +1,7 @@
 
 <script src="https://kit.fontawesome.com/a0315d2788.js" crossorigin="anonymous"></script>
 
-<nav x-data="{ open: false }" class="static w-screen text-50 bg-nav">
+<nav x-data="{ open: false }" class="fixed w-screen text-50 bg-nav">
 <!-- <div class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-100  selection:text-white"> -->
        
     <!-- Navigation not logged in -->
@@ -15,7 +15,7 @@
                             @auth
                             <a href="{{ url('/dashboard') }}" class="font-bold font-inter hover:text-gray-300  focus:outline focus:outline-2 focus:rounded-sm"></a>
                             @else
-                            <a href="{{ route('login') }}" class="hidden sm:font-inter sm:font-bold sm:text-50 sm:hover:text-gray-300 sm:text-xl sm:mt-2">Login</a>
+                            <a href="{{ route('login') }}" class="sm:font-inter sm:font-bold sm:text-50 sm:hover:text-gray-300 sm:text-xl mt-2">Login</a>
 
                             @if (Route::has('register'))
                             <a href="{{ route('register') }}" class="ml-4 font-semibold dark:hover:text-gray-300 h-10 w-10 mt-2 rounded-lg border-solid border-4 border-sky-600"> <!-- <i class="fa-solid fa-user rounded-lg py-2 px-2 border-solid border-4 border-sky-600 "></i> -->

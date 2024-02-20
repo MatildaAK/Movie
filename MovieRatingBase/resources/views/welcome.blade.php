@@ -834,9 +834,10 @@
     </style>
 </head>
 
-<body class="antialiased">
+<body class="antialiased bg-backgc">
 
-@include('layouts.nav')
+    @include('layouts.nav')
+
 
 </body>
 
