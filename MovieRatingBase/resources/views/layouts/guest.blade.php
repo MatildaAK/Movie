@@ -14,9 +14,9 @@
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
-    <body class="font-inter bg-backgc text-50 antialiased">
+    <body class="bg-backgc antialiased">
     
-        <div class="min-h-screen flex flex-col justify-center items-center">
+        <div class="min-h-screen flex justify-center items-center text-50 font-inter">
 
             <div class="sm:w-full sm:max-w-md px-6 bg-nav shadow-md overflow-hidden font-meduim">
                 {{ $slot }}
