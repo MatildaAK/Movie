@@ -4,16 +4,16 @@
     <!-- <div class="pt-100 w-screen mx-auto">
       <div class="bg-nav pt-100">
         <div class="grid grid-cols-3 gap-4">
-        <div class="ml-8 mb-4 w-1/3">
-            <a href="#">
-              <img src="{{ Vite::asset('resources/images/deadpool.jpg') }}" alt="Deadpool">
-            </a>
-        </div>
-        <div class="ml-8 mb-4 w-2/3">
-            <a href="#">
-              <img src="{{ Vite::asset('resources/images/deadpool.jpg') }}" alt="Deadpool">
-            </a>
-        </div>
+          <div class="ml-8 mb-4 w-1/3">
+              <a href="#">
+                <img src="{{ Vite::asset('resources/images/deadpool.jpg') }}" alt="Deadpool">
+              </a>
+          </div>
+          <div class="ml-8 mb-4 w-2/3">
+              <a href="#">
+                <img src="{{ Vite::asset('resources/images/deadpool.jpg') }}" alt="Deadpool">
+              </a>
+          </div>
         </div>
     </div>
   </div>
